@@ -1,0 +1,13 @@
+{
+  "args": {},
+  "headers": {
+    "Accept-Encoding": "gzip",
+    "Custom-Header": "header-value",
+    "Host": "httpbin.org",
+    "Purpose": "Http Codelab",
+    "User-Agent": "okhttp/4.10.0",
+    "X-Amzn-Trace-Id": "Root=1-63795506-1c21ed05383a0466336b0e2b"
+  },
+  "origin": "92.178.82.249",
+  "url": "https://httpbin.org/get"
+}
