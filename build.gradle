@@ -17,3 +17,21 @@ allprojects {
 task clean(type: Delete) {
   delete rootProject.buildDir
 }
+
+ext {
+  retrofitVersion = '2.9.0'
+  retrofit = "com.squareup.retrofit2:retrofit:$retrofitVersion"
+  retrofitGsonConverter = "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+
+  okHttpVersion = '4.10.0'
+  okHttp = "com.squareup.okhttp3:okhttp:$okHttpVersion"
+  okHttpLoggingInterceptor = "com.squareup.okhttp3:logging-interceptor:$okHttpVersion"
+  okHttpMockWebServer = "com.squareup.okhttp3:mockwebserver:$okHttpVersion"
+
+  okio = 'com.squareup.okio:okio:3.2.0'
+
+  coroutinesVersion = "1.6.4"
+  coroutinesCore = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion"
+  coroutinesJvm = "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:$coroutinesVersion"
+  coroutinesTest = "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutinesVersion"
+}
