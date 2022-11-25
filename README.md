@@ -29,6 +29,7 @@
 - Most of the methods use the Retrofit `Call` and we move to Coroutines `suspend` functions through the codelab.
 
 # References
+- [HTTP in a Hostile World](https://www.youtube.com/watch?v=tfD2uYjzXFo), [*Slides*](https://speakerdeck.com/swankjesse/http-in-a-hostile-world-droidcon-toronto-2019)
 - [Okio powering OkHttp I/O](https://www.youtube.com/watch?v=Du7YXPAV1M8)
 - [Android Studio Network Inspector](https://developer.android.com/studio/debug/network-profiler)
 - [Cache-Control](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control) & [ETag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag), [OkHttp Caching](https://square.github.io/okhttp/features/caching/)
